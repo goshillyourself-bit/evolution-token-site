@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071b2c">
+<meta name="description" content="Evolution Token — One SOL at a time. Explore the evolution, community, and illustrative rewards dashboard.">
+<title>Evolution Token — One SOL at a Time</title>
+<style>
+:root{--navy:#061522;--deep:#071d31;--blue:#0b3a59;--cyan:#36d8f2;--gold:#f6c84a;--gold2:#ffec9c;--purple:#9a4cff;--ink:#edf8ff;--muted:#a9c2d2;--panel:rgba(8,31,49,.82);--line:rgba(246,200,74,.3)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(ellipse at 50% -15%,#17618a 0,transparent 45%),radial-gradient(ellipse at 10% 40%,#0b3854 0,transparent 35%),var(--navy);line-height:1.55}a{color:inherit}button,input{font:inherit}.shell{width:min(1160px,92%);margin:auto}.topbar{position:sticky;top:0;z-index:10;background:rgba(4,17,28,.88);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.08)}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.04em}.brand img{width:42px;height:42px;object-fit:cover;border-radius:50%;border:1px solid var(--gold)}.brand span{color:var(--gold2)}.navlinks{display:flex;align-items:center;gap:24px}.navlinks a{text-decoration:none;color:var(--muted);font-size:.93rem}.navlinks a:hover{color:white}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:12px 18px;border:1px solid var(--gold);border-radius:12px;color:#211600;background:linear-gradient(135deg,var(--gold2),var(--gold));font-weight:850;text-decoration:none;cursor:pointer;transition:transform .18s,filter .18s}.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}.btn.secondary{background:rgba(255,255,255,.04);color:var(--ink);border-color:rgba(255,255,255,.2)}.btn.purple{background:linear-gradient(135deg,#c6a0ff,#8c42ee);border-color:#d9c2ff;color:#170a29}.hero{padding:68px 0 52px;display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center}.eyebrow{color:var(--gold2);text-transform:uppercase;letter-spacing:.2em;font-size:.75rem;font-weight:900}.hero h1{font-size:clamp(2.6rem,5.8vw,5.2rem);line-height:.98;letter-spacing:-.055em;margin:16px 0 22px}.hero h1 em{font-style:normal;color:var(--gold);text-shadow:0 0 26px #e8a62c55}.hero p{max-width:600px;color:var(--muted);font-size:1.08rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}.tiny{font-size:.8rem;color:#91aebf}.coin-wrap{position:relative;text-align:center}.coin-wrap:before{content:"";position:absolute;inset:12%;border-radius:50%;background:#10bce8;filter:blur(65px);opacity:.22}.coin{position:relative;width:min(100%,510px);border-radius:50%;filter:drop-shadow(0 18px 42px #0009);animation:float 6s ease-in-out infinite}.coin-caption{position:relative;margin-top:-4px;color:var(--gold2);font-weight:800;letter-spacing:.08em}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:4px auto 60px}.stat,.panel,.stage{background:linear-gradient(145deg,rgba(13,50,74,.84),rgba(6,23,38,.9));border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 15px 35px #0002}.stat strong{display:block;font-size:1.45rem;color:var(--gold2)}.stat span{font-size:.85rem;color:var(--muted)}section{padding:44px 0}.section-head{max-width:720px;margin-bottom:26px}.section-head h2{font-size:clamp(1.9rem,4vw,3rem);line-height:1.05;margin:8px 0 12px;letter-spacing:-.04em}.section-head p{color:var(--muted);margin:0}.evolution{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.stage{text-align:center;padding:20px 12px}.stage .emoji{font-size:2.25rem;display:block;margin-bottom:8px}.stage strong{display:block;color:var(--gold2)}.stage small{color:var(--muted)}.stage:not(:last-child):after{content:"→";position:absolute}.content-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel h3{margin:0 0 8px;font-size:1.35rem}.panel p{color:var(--muted)}.wallet-list{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0}.wallet{display:flex;align-items:center;gap:10px;text-align:left;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:13px;color:var(--ink);cursor:pointer}.wallet:hover{border-color:var(--gold)}.wallet .wicon{width:32px;height:32px;border-radius:10px;display:grid;place-items:center;background:#123b56;font-weight:900}.wallet small{display:block;color:var(--muted);font-size:.76rem}.status{padding:12px;border-radius:10px;background:#041522;border:1px solid rgba(54,216,242,.22);font-size:.88rem;color:#b8eefa;min-height:44px}.form-row{display:grid;gap:7px;margin:14px 0}.form-row label{font-size:.9rem;color:#d7e8f1;font-weight:700}.form-row input{width:100%;background:#041522;border:1px solid rgba(255,255,255,.18);border-radius:10px;padding:13px;color:white;outline:none}.form-row input:focus{border-color:var(--cyan)}.checkline{display:flex;gap:10px;align-items:flex-start;color:var(--muted);font-size:.85rem;margin:14px 0}.checkline input{margin-top:5px}.reward-number{font-size:2.3rem;font-weight:950;color:var(--gold2);letter-spacing:-.04em}.reward-note{font-size:.84rem;color:var(--muted)}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step-num{color:var(--gold);font-weight:950;font-size:.85rem;letter-spacing:.12em}.notice{border:1px solid rgba(255,180,80,.35);background:rgba(98,55,9,.18);padding:15px 17px;border-radius:12px;color:#f7dca6;font-size:.87rem}.community{display:flex;justify-content:space-between;align-items:center;gap:22px;flex-wrap:wrap;background:linear-gradient(120deg,#103d59,#21163c);border:1px solid var(--line);border-radius:22px;padding:30px}.community h2{margin:0 0 5px;font-size:1.8rem}.community p{margin:0;color:var(--muted)}footer{border-top:1px solid rgba(255,255,255,.08);margin-top:60px;padding:26px 0 38px;color:var(--muted);font-size:.82rem}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-inner a{color:var(--gold2)}.modal-backdrop{position:fixed;inset:0;background:#000b;display:none;place-items:center;padding:20px;z-index:30}.modal-backdrop.show{display:grid}.modal{width:min(470px,100%);background:#081d2d;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 20px 80px #000a}.modal h3{margin-top:0}.modal p{color:var(--muted)}.modal-actions{display:flex;gap:10px;flex-wrap:wrap}.x{float:right;background:none;color:white;border:0;font-size:1.4rem;cursor:pointer}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:42px}.hero-copy{text-align:center}.hero p{margin-inline:auto}.actions{justify-content:center}.coin{width:min(85%,430px)}.stats{grid-template-columns:1fr;gap:10px;margin-bottom:30px}.stat{display:flex;align-items:center;justify-content:space-between;padding:16px 18px}.evolution{grid-template-columns:repeat(2,1fr)}.stage:last-child{grid-column:1/-1}.content-grid,.steps{grid-template-columns:1fr}.navlinks{display:none}.nav .btn{padding:10px 12px;font-size:.85rem}}@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="shell nav">
+<a class="brand" href="#top" style="text-decoration:none"><img src="assets/evolution-token-coin.png" alt=""><span>EVOLUTION TOKEN</span></a>
+<nav class="navlinks" aria-label="Main navigation"><a href="#evolution">The Evolution</a><a href="#rewards">Rewards</a><a href="#wallet">Wallet</a><a href="#roadmap">Roadmap</a></nav>
+<a class="btn" href="#wallet">Join the evolution ↗</a>
+</div></header>
+<main id="top">
+<div class="shell hero">
+<div class="hero-copy"><div class="eyebrow">Community • Conviction • Evolution</div>
+<h1>One SOL.<br><em>One step.</em><br>One evolution.</h1>
+<p>From plankton to the whale. Evolution Token is a community-first meme token built around the idea that every journey starts small — and every holder helps write the next chapter.</p>
+<div class="actions"><a class="btn" href="#wallet">Explore holder rewards ↓</a><a class="btn secondary" href="https://x.com/ShillYourself" target="_blank" rel="noopener noreferrer">Follow the community on X ↗</a></div>
+<div class="tiny">A meme-token community experience. Always verify official links before connecting a wallet.</div>
+</div>
+<div class="coin-wrap"><img class="coin" src="assets/evolution-token-coin.png" alt="Evolution Token gold coin showing plankton evolving through shrimp, fish, marlin and whale"><div class="coin-caption">EVOLVE • BUILD • RISE</div></div>
+</div>
+<div class="shell stats">
+<div class="stat"><strong>1 SOL at a time</strong><span>Small steps. Shared story.</span></div>
+<div class="stat"><strong>Community-led</strong><span>Built with holders, not hype alone.</span></div>
+<div class="stat"><strong>Multi-DEX ambition</strong><span>Post-bonding listings are a goal, not a guarantee.</span></div>
+</div>
+<section id="evolution"><div class="shell"><div class="section-head"><div class="eyebrow">The journey</div><h2>Every whale started somewhere.</h2><p>Our evolution story is a reminder that communities grow stage by stage. Pick your place in the food chain — and help the next chapter unfold.</p></div>
+<div class="evolution">
+<div class="stage"><span class="emoji">🦠</span><strong>Plankton</strong><small>The first spark</small></div>
+<div class="stage"><span class="emoji">🦐</span><strong>Krill</strong><small>Finding momentum</small></div>
+<div class="stage"><span class="emoji">🐟</span><strong>Fish</strong><small>Building strength</small></div>
+<div class="stage"><span class="emoji">🐬</span><strong>Marlin</strong><small>Moving with purpose</small></div>
+<div class="stage"><span class="emoji">🐋</span><strong>Whale</strong><small>The long game</small></div>
+</div></div></section>
+<section id="wallet"><div class="shell"><div class="section-head"><div class="eyebrow">Your holder hub</div><h2>Connect. Verify. Join the story.</h2><p>Choose your wallet to begin. This preview does not request signatures, transfer assets, or connect to a blockchain yet.</p></div>
+<div class="content-grid">
+<div class="panel"><h3>1. Connect your wallet</h3><p>Choose the wallet you use. A production version should use each wallet's official connection SDK and clearly display the network and permissions before approval.</p>
+<div class="wallet-list">
+<button class="wallet" data-wallet="Phantom"><span class="wicon">👻</span><span><b>Phantom</b><small>Solana</small></span></button>
+<button class="wallet" data-wallet="SubWallet"><span class="wicon">S</span><span><b>SubWallet</b><small>Supported networks vary</small></span></button>
+<button class="wallet" data-wallet="MetaMask"><span class="wicon">🦊</span><span><b>MetaMask</b><small>EVM networks</small></span></button>
+<button class="wallet" data-wallet="Base App"><span class="wicon">🔵</span><span><b>Base App</b><small>Base ecosystem</small></span></button>
+<button class="wallet" data-wallet="OKX Wallet"><span class="wicon">⬡</span><span><b>OKX Wallet</b><small>Multi-chain</small></span></button>
+</div><div class="status" id="walletStatus" aria-live="polite">Status: No wallet connected. Select a wallet to preview the flow.</div>
+<div class="notice" style="margin-top:14px">Never enter your seed phrase or private key on this website. A legitimate wallet connection should never ask for either.</div>
+</div>
+<div class="panel"><h3>2. Register your holder profile</h3><p>Reserve a profile for future eligibility checks. Real verification requires a secure backend and a published eligibility policy.</p>
+<form id="registerForm">
+<div class="form-row"><label for="handle">Community handle</label><input id="handle" name="handle" placeholder="@yourhandle" maxlength="40" required></div>
+<div class="form-row"><label for="email">Email (optional)</label><input id="email" name="email" type="email" placeholder="you@example.com"></div>
+<label class="checkline"><input id="terms" type="checkbox" required><span>I understand this is a preview and that rewards, token availability, and eligibility have not been activated or verified.</span></label>
+<button class="btn purple" type="submit">Create preview profile →</button>
+</form><div id="registerStatus" class="status" style="margin-top:14px" aria-live="polite">No profile registered in this preview.</div>
+</div>
+</div></div></section>
+<section id="rewards"><div class="shell"><div class="section-head"><div class="eyebrow">The lifetime idea</div><h2>Reward the first step.</h2><p>The proposed concept is to recognize eligible early buyers over the life of the project. The exact formula, funding source, payout asset, snapshot rules, and legal terms must be published before any rewards can be promised.</p></div>
+<div class="content-grid">
+<div class="panel"><h3>Illustrative rewards calculator</h3><p>Adjust the hypothetical first purchase amount to see the proposed rate. This is a model of the stated idea, not a prediction or claim on future value.</p>
+<div class="form-row"><label for="solAmount">Illustrative first purchase (SOL)</label><input id="solAmount" type="number" min="0" max="1000000" step=".1" value="1"></div>
+<div class="reward-number" id="rewardPercent">1.00%</div><div class="reward-note">Illustrative lifetime allocation rate at 1% per SOL, subject to a real published program and eligibility rules.</div>
+</div>
+<div class="panel"><h3>What “lifetime” should mean</h3><p>For trust, the live program should clearly explain:</p><ul style="color:var(--muted);padding-left:20px"><li>Whether the rate applies to token supply, a reward pool, or trading fees</li><li>How wallet ownership and first purchase are verified</li><li>Claim frequency, network fees, exclusions, and anti-abuse rules</li><li>Whether the program can change and how changes are announced</li></ul></div>
+</div></div></section>
+<section id="roadmap"><div class="shell"><div class="section-head"><div class="eyebrow">From idea to ecosystem</div><h2>The plan, one stage at a time.</h2><p>These are intended milestones, not completed integrations or guarantees.</p></div>
+<div class="steps"><div class="panel"><div class="step-num">STAGE 01</div><h3>Build the community</h3><p>Publish official links, token details, risk disclosures, and transparent community updates.</p></div><div class="panel"><div class="step-num">STAGE 02</div><h3>Launch & verify</h3><p>Publish the contract address, audit the holder-registration process, and define the rewards rules.</p></div><div class="panel"><div class="step-num">STAGE 03</div><h3>Explore DEX listings</h3><p>Work toward broader DEX access after bonding, subject to liquidity, eligibility, and exchange requirements.</p></div></div>
+</div></section>
+<section><div class="shell"><div class="community"><div><h2>Come evolve with us.</h2><p>Join the conversation, share the meme, and build responsibly.</p></div><a class="btn" href="https://x.com/ShillYourself" target="_blank" rel="noopener noreferrer">Visit @ShillYourself on X ↗</a></div></div></section>
+</main>
+<footer><div class="shell footer-inner"><span>© <span id="year"></span> Evolution Token • “One SOL at a time.”</span><span>Meme tokens are highly speculative. This page is a design prototype, not financial advice or an offer.</span><a href="https://x.com/ShillYourself" target="_blank" rel="noopener noreferrer">Official community link ↗</a></div></footer>
+<div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal"><button class="x" id="closeModal" aria-label="Close">×</button><div class="eyebrow">Wallet preview</div><h3 id="modalTitle">Connect wallet</h3><p id="modalText">This is a front-end demonstration. No wallet connection or blockchain action will occur.</p><div class="modal-actions"><button class="btn" id="confirmDemo">Continue preview</button><button class="btn secondary" id="cancelDemo">Cancel</button></div></div></div>
+<script>
+const $=s=>document.querySelector(s);let selectedWallet=null;
+$('#year').textContent=new Date().getFullYear();
+const backdrop=$('#modalBackdrop');
+function closeModal(){backdrop.classList.remove('show')}
+document.querySelectorAll('[data-wallet]').forEach(button=>button.addEventListener('click',()=>{
+ selectedWallet=button.dataset.wallet;$('#modalTitle').textContent='Continue with '+selectedWallet+'?';
+ $('#modalText').textContent='This preview cannot connect to '+selectedWallet+' yet. In the production site, this step would open the wallet’s official approval flow. Never share your recovery phrase.';
+ backdrop.classList.add('show');
+}));
+$('#closeModal').addEventListener('click',closeModal);$('#cancelDemo').addEventListener('click',closeModal);
+$('#confirmDemo').addEventListener('click',()=>{$('#walletStatus').textContent='Preview selected: '+selectedWallet+'. Not connected — wallet SDK integration is required.';closeModal()});
+backdrop.addEventListener('click',e=>{if(e.target===backdrop)closeModal()});
+$('#registerForm').addEventListener('submit',e=>{e.preventDefault();const handle=$('#handle').value.trim();if(!handle||!$('#terms').checked)return;$('#registerStatus').textContent='Preview profile prepared for '+handle+'. Nothing has been sent or stored. Add a secure backend before collecting real registrations.';});
+function updateReward(){const amount=Math.max(0,Number($('#solAmount').value)||0);$('#rewardPercent').textContent=(amount*1).toFixed(2)+'%';}
+$('#solAmount').addEventListener('input',updateReward);
+</script>
+</body></html>
